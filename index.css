@@ -1,0 +1,167 @@
+.first-slide {
+    background: url("img/bg/mybg.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+
+}
+
+/* navbar  */
+.navbar-light {
+    color: rgb(204, 5, 5);
+    font-weight: 500;
+
+}
+
+.nav-item a {
+    color: black;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-weight: 500;
+
+}
+
+.navbar-brand:hover {
+    color: rgb(71, 22, 22);
+}
+
+.dropdown .dropdown-menu {
+    background-color: rgb(181 176 157);
+    border-radius: 12px;
+    width: fit-content;
+    margin: auto;
+    display: none;
+}
+
+.nav-item ul li a:hover {
+
+    border-radius: 12px;
+}
+
+.dropdown-menu li a {
+    font-size: 16px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav {
+
+    margin: auto;
+}
+
+/* Heading-baner */
+
+.heading-banner {
+
+    width: 35vw;
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    background-color: rgb(27, 25, 25);
+    font-size: 22px;
+    color: white;
+
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.mybtn {
+    font-size: 16px;
+    padding: 4px;
+    border: none;
+    background-color: rgba(9, 155, 45, 0.815);
+    color: white;
+    border-radius: 6px;
+    margin: 6px auto;
+}
+
+.mybtn:hover {
+    background-color: rgb(25, 87, 41);
+    color: white;
+}
+
+/* Contact Form  */
+
+#form-container {
+    width: 30vw;
+    border: 2px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    background-color: rgb(27, 25, 25);
+    color: white;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label {
+    display: flex;
+    margin-left: 10%;
+}
+
+.input-container input {
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    margin: 2px auto;
+}
+
+.input-container textarea {
+    width: 80%;
+    margin: 2px auto;
+}
+
+
+#aboutme {
+    width: 30vw;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    background-color: rgb(27, 25, 25);
+    color: rgb(224, 219, 219);
+}
+
+/* Footer   */
+
+#footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.social i{
+    margin: 4px;
+}

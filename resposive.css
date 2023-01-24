@@ -1,0 +1,58 @@
+@media screen and (max-width:470px) {
+    .first-slide{
+        padding: 10px 4px;
+    }
+    .heading-banner{
+        font-size: 18px;
+        width: 48vw;
+       margin-top: 38px;
+       padding: 3px;
+       
+    }
+    .buttons{
+      flex-direction: column;
+    }
+    .buttons button{
+        margin: 2px 0;
+        font-size: 12px;
+    }
+    .nav-item a{
+        font-size: 16px;
+        margin:1px auto;
+       
+        padding: 0px;
+        
+    }
+    .dropdown .dropdown-menu{
+        border: 1px solid black;
+      text-align: center;
+      padding: 0px;
+    }
+    .navbar-light{
+      
+        font-weight: 600;
+        border-radius: 20px;
+       border: 1px  black;
+       border-style:solid;
+       backdrop-filter: blur(40px); 
+    }
+
+    #form-container{
+        width: 50%;
+        font-size: 12px;
+        margin-top: 38px;
+    }
+    .mybtn{
+        display: inline-block;
+        width: 80%;
+    }
+    #aboutme{
+        width: 50vw;
+    }
+
+    #footer{
+        display: block;
+        text-align: center;
+    }
+    
+}

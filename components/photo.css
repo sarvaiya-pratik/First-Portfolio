@@ -1,0 +1,89 @@
+.first-slide {
+    background: url("../img/bg/mybg.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+
+
+}
+
+/* navbar  */
+.navbar-light {
+    color: rgb(204, 5, 5);
+    font-weight: 500;
+
+}
+
+.nav-item a {
+    color: black;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-weight: 500;
+
+}
+
+.navbar-brand:hover {
+    color: rgb(71, 22, 22);
+}
+
+.dropdown .dropdown-menu {
+    background-color: rgb(181 176 157);
+    border-radius: 12px;
+    width: fit-content;
+    margin: auto;
+    display: none;
+}
+
+.nav-item ul li a:hover {
+
+    border-radius: 12px;
+}
+
+.dropdown-menu li a {
+    font-size: 16px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav {
+
+    margin: auto;
+}
+
+
+/* Footer   */
+
+#footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.social i{
+    margin: 4px;
+}
+
+
+/* photo   */
+.photo-card img{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 9px;
+}
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
